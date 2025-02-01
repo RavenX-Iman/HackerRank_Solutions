@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class grades {
+public class grading_students {
     public static List<Integer> gradingStudents(List<Integer> grades) {
         // Write your code here
         ArrayList<Integer> result = new ArrayList<>(); //creating an arraylist to store the final grades
