@@ -18,8 +18,6 @@ public class A_Very_Big_Sum {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
-        int arCount = Integer.parseInt(bufferedReader.readLine().trim()); // Read the number of elements
-
         // Read input numbers, convert them to long, and store them in a list
         List<Long> ar = Stream.of(bufferedReader.readLine().trim().split(" "))
             .map(Long::parseLong)
@@ -34,3 +32,4 @@ public class A_Very_Big_Sum {
         bufferedWriter.close();
     }
 }
+
